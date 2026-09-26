@@ -19,4 +19,12 @@ Host Discovery Port Scanning Service & Version Detection OS Detection NSE Script
 ## STEP-1 Environment Verification & Tool Setup
 
 Before running scans, verify your interface settings and explore the Nmap utility syntax.
-<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 14_15_05" src="https://github.com/user-attachments/assets/06891211-cc85-46e2-be24-6741e5f1a1c2" />
+<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 14_15_05" src="https://github.com/user-attachments/assets/06891211-cc85-46e2-be24-6741e5f1a1c2" /> 
+
+## STEP-2 HOST DISCOVERY
+
+Discover which hosts are active on a target subnet without performing a full port scan.
+nmap -sn 10.0.2.4/24
+(The -sn flag tells Nmap to only run host discovery and skip port scanning).<img width="1920" height="991" alt="meta  Running  - Oracle VirtualBox 26_09_2026 14_47_01" src="https://github.com/user-attachments/assets/6d88d0d2-a6ce-49ca-b51c-16d0f792fb64" />
+
+
