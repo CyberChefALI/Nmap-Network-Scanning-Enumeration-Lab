@@ -48,7 +48,31 @@ Service & Version Detection means figuring out what application or program is ru
 nmap -O 10.0.2.4
 
 OS Detection (Operating System Detection) means using Nmap to figure out what operating system is running on a target device
-<img width="1920" height="991" alt="Captures - File Explorer 26_09_2026 15_22_30" src="https://github.com/user-attachments/assets/0955b370-d8b3-43b8-aba4-661e6a33987f" />
+<img width="1920" height="991" alt="Captures - File Explorer 26_09_2026 15_22_30" src="https://github.com/user-attachments/assets/0955b370-d8b3-43b8-aba4-661e6a33987f" />  
+
+## STEP-6 Default script scan (NSE)
+
+nmap -sC 10.0.2.4
+
+Instead of just checking if a port is open, it automatically runs a collection of safe, pre-written scripts tailored to the specific services found
+<img width="1920" height="991" alt="Captures - File Explorer 26_09_2026 15_34_52" src="https://github.com/user-attachments/assets/98948bed-555e-4213-8877-472c32e0bd0f" />  
+
+## STEP-7  Firewall/Filtering Analysis
+
+nmap -sA 10.0.2.4
+
+Unlike most other scans, it is not used to find open ports. Instead, it is used to map out firewall rules and filter configurations
+<img width="1920" height="991" alt="Captures - File Explorer 26_09_2026 15_44_58" src="https://github.com/user-attachments/assets/baeddf16-d839-4fa7-83fc-ba8869e6e3cc" />  
+
+## STEP-8 comprehensive scan/Deep enumeration scan
+
+ nmap -sC -sV -O 192.168.5.129 -oN scanreport.txt
+
+<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 15_57_08" src="https://github.com/user-attachments/assets/620a882a-c622-44e1-b35e-9ebcfaa0595c" />
+<img width="1920" height="991" alt="Captures - File Explorer 26_09_2026 15_56_09" src="https://github.com/user-attachments/assets/a7241e69-79bb-42e4-b503-b57aebbed5a8" />
+
+
+
 
 
 
