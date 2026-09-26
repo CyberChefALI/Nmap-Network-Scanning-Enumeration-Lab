@@ -37,7 +37,15 @@ The default and most popular scan; it sends SYN packets and infers port states w
 
 nmap -sV 10.0.2.4
 Service & Version Detection means figuring out what application or program is running on an open port and its exact version number.
-<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 15_18_31" src="https://github.com/user-attachments/assets/cbb5f616-ce6a-48d1-b997-56ce5300730a" />
+<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 15_18_31" src="https://github.com/user-attachments/assets/cbb5f616-ce6a-48d1-b997-56ce5300730a" /> 
+
+## STEP-5  OS Detection
+
+nmap -O 10.0.2.4
+
+OS Detection (Operating System Detection) means using Nmap to figure out what operating system is running on a target device
+<img width="1920" height="991" alt="Captures - File Explorer 26_09_2026 15_22_30" src="https://github.com/user-attachments/assets/0955b370-d8b3-43b8-aba4-661e6a33987f" />
+
 
 
 
