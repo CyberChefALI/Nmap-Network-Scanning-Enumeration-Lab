@@ -25,6 +25,14 @@ Before running scans, verify your interface settings and explore the Nmap utilit
 
 Discover which hosts are active on a target subnet without performing a full port scan.
 nmap -sn 10.0.2.4/24
-(The -sn flag tells Nmap to only run host discovery and skip port scanning).<img width="1920" height="991" alt="meta  Running  - Oracle VirtualBox 26_09_2026 14_47_01" src="https://github.com/user-attachments/assets/6d88d0d2-a6ce-49ca-b51c-16d0f792fb64" />
+(The -sn flag tells Nmap to only run host discovery and skip port scanning).<img width="1920" height="991" alt="meta  Running  - Oracle VirtualBox 26_09_2026 14_47_01" src="https://github.com/user-attachments/assets/6d88d0d2-a6ce-49ca-b51c-16d0f792fb64" />   
+
+## STEP-3 •	TCP SYN Scan (Stealth Scan)
+
+nmap -Ss 10.0.2.4
+The default and most popular scan; it sends SYN packets and infers port states without completing the full 3-way handshake
+<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 14_59_29" src="https://github.com/user-attachments/assets/c725994d-d8b3-4b26-9de9-8914bc60ed6d" />
+
+
 
 
