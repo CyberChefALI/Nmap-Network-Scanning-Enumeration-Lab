@@ -27,6 +27,7 @@ nmap -sn 10.0.2.4/24
 
 Discover which hosts are active on a target subnet without performing a full port scan.
 
+
 (The -sn flag tells Nmap to only run host discovery and skip port scanning).<img width="1920" height="991" alt="meta  Running  - Oracle VirtualBox 26_09_2026 14_47_01" src="https://github.com/user-attachments/assets/6d88d0d2-a6ce-49ca-b51c-16d0f792fb64" />   
 
 ## STEP-3 •	TCP SYN Scan (Stealth Scan)
