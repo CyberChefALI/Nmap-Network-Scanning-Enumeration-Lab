@@ -77,7 +77,14 @@ Unlike most other scans, it is not used to find open ports. Instead, it is used 
 nmap -sV  -p- -A -T4 10.0.2.4
 <img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 16_17_16" src="https://github.com/user-attachments/assets/2f57be2a-7ddf-49a9-a778-bdb3e334d7eb" />
 <img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 16_17_02" src="https://github.com/user-attachments/assets/dea15f94-a724-4bc6-a893-0f83db9e3c1d" />
-<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 16_16_40" src="https://github.com/user-attachments/assets/0d59d77b-9ce4-40dd-b5f9-87b034d5f9fe" />
+<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 16_16_40" src="https://github.com/user-attachments/assets/0d59d77b-9ce4-40dd-b5f9-87b034d5f9fe" />  
+
+
+## CONCLUSION:
+
+In conclusion, this lab successfully demonstrated how to use Nmap for comprehensive network reconnaissance, ranging from rapid host discovery and stealth port scanning to deep service and OS fingerprinting. Mastering these techniques highlights not only how attackers map targets, but also why strict firewall configurations, regular auditing, and service hardening are vital for network defense.
+
+
 
 
 
