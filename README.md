@@ -31,7 +31,14 @@ nmap -sn 10.0.2.4/24
 
 nmap -Ss 10.0.2.4
 The default and most popular scan; it sends SYN packets and infers port states without completing the full 3-way handshake
-<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 14_59_29" src="https://github.com/user-attachments/assets/c725994d-d8b3-4b26-9de9-8914bc60ed6d" />
+<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 14_59_29" src="https://github.com/user-attachments/assets/c725994d-d8b3-4b26-9de9-8914bc60ed6d" />  
+
+## STEP-4 Service & Version Detection
+
+nmap -sV 10.0.2.4
+Service & Version Detection means figuring out what application or program is running on an open port and its exact version number.
+<img width="1920" height="991" alt="kali-linux-2026 1-virtualbox-amd64  Running  - Oracle VirtualBox 26_09_2026 15_18_31" src="https://github.com/user-attachments/assets/cbb5f616-ce6a-48d1-b997-56ce5300730a" />
+
 
 
 
